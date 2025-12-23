@@ -10,8 +10,7 @@ const http = require("http");
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-   // origin: "https://dev-frontend-final.onrender.com",
-    origin: "http://localhost:5173",
+    origin: "https://devvx.netlify.app/",
     credentials:true,
 }));
 
