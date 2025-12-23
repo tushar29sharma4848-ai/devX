@@ -10,7 +10,7 @@ const http = require("http");
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: "https://devx-bqtr.onrender.com/",
+    origin: "https://devx-bqtr.onrender.com",
     credentials:true,
 }));
 
